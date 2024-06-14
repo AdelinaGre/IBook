@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "382723338320",
+    "project_id": "ibook-c6cc1",
+    "storage_bucket": "ibook-c6cc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382723338320:android:3deea19d09c295dacc2155",
+        "android_client_info": {
+          "package_name": "com.example.ibook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd645mM6WtOBiXRTED0KouP9-B9ZO9v4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
