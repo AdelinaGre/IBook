@@ -1,4 +1,39 @@
 <resources>
     <string name="app_name">IBook</string>
-    <string name="title_activity_maps">MapsActivity</string>
+
+    <string-array name="title_news">
+        <item> Your Summer Reading Guide</item>
+        <item>The Best Father’s Day Gift Is a Book</item>
+        <item>33 Novels Coming This Summer</item>
+        <item>9 New Books We Recommend This Week</item>
+    </string-array>
+
+    <string-array name="short_description_news">
+        <item>If you fantasize about reading your way from now until Labor Day but need help...</item>
+        <item>My dad has always wanted to write a book. </item>
+        <item>Watch for new books by J. Courtney Sullivan, Kevin Barry and Casey McQuiston; </item>
+        <item>Suggested from critics and editors at The New York Times.</item>
+    </string-array>
+
+    <string-array name="date_news">
+        <item>June 15, 2024</item>
+        <item>June 14, 2024</item>
+        <item>June 14, 2024</item>
+        <item>June 13, 2024</item>
+    </string-array>
+
+    <string-array name="author_name_news">
+        <item>By MELISSA KIRSCH</item>
+        <item>By KATIE QUINN</item>
+        <item>By KATE DWYER</item>
+        <item>EDITORS CHOICE</item>
+    </string-array>
+
+    <string-array name="full_description_news">
+        <item>Our list is by no means exhaustive – there are thousands of excellent novels spanning all sorts of themes and genres (techno-horror or femslash, anyone?). There is also plenty of debate about what can be classified as “horror”.</item>
+        <item>Although spooky season is still a few months away, you don’t need to wait until Halloween to pick up a book that will make the hair on the back of your neck stand up. To help you whittle down the options, we’ve reviewed some of the most chilling tomes within the horror genre.</item>
+        <item>There’s nothing like a good creepy story to scare the living daylights out of you – there’s a reason we’ve been indulging in ghost stories and tales of the supernatural since ancient times. If you’re a fan of a fright-night thrill, you’ll be pleased to hear we’ve rounded up the best horror books of all time.</item>
+        <item>Sometimes books confirm our familiar sense of the world, and sometimes they disrupt it by transporting us to places we could never have encountered on our own. This week’s recommendations do the latter in spades, with close-up looks at worlds and stories most of us will never experience firsthand, from disastrous space missions to a military bribery scandal to daily life in the restrictive state of North Korea. In “The Wide Wide Sea,” Hampton Sides takes readers back to Captain James Cook’s third voyage, and in “The Work of Art,” Adam Moss interviews dozens of creative people to get at their methods of invention. Finally, in fiction, we have new novels from Claire Messud, R.O. Kwon, Allen Bratton and Elise Juska. Happy reading. — Gregory Cowles</item>
+    </string-array>
+    <string name="back_button">Back</string>
 </resources>

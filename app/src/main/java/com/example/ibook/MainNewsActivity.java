@@ -16,11 +16,11 @@ import com.example.ibook.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
-    ActivityMainBinding binding;
-    ListAdapter listAdapter;
-    ArrayList<ListNews> dataArrayList = new ArrayList<>();
-    ListNews listNews;
+public class MainNewsActivity extends AppCompatActivity {
+ActivityMainBinding binding;
+ListAdapter listAdapter;
+ArrayList<ListNews> dataArrayList = new ArrayList<>();
+ListNews listNews;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
             listNews=new ListNews(title_news[i],short_description_news[i],date_news[i], author_name_news[i],full_description_news[i],imageList[i]);
             dataArrayList.add(listNews);
         }
-        listAdapter =new ListNewsAdapter(MainActivity.this,dataArrayList);
+        listAdapter =new ListNewsAdapter(MainNewsActivity.this,dataArrayList);
         binding.listview.setAdapter(listAdapter);
         binding.listview.setClickable( true);
 
         binding.listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent=new Intent(MainActivity.this,DetailedNewsActivity.class);
+                Intent intent=new Intent(MainNewsActivity.this,DetailedNewsActivity.class);
                 intent.putExtra("title",title_news[i]);
                 intent.putExtra("short_description_news",short_description_news[i]);
                 intent.putExtra("date_news",date_news[i]);

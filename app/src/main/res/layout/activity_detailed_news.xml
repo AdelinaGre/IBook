@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedNewsActivity"
+    tools:ignore="ExtraText"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back_button"
+        tools:srcCompat="@drawable/back"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:onClick="goBack" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_news_title"
+        android:layout_marginTop="20dp"
+        android:text="NEWS TITLE"
+        android:textSize="24sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/cardImage"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+
+            android:id="@+id/detailImage"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cover_1"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="376dp"
+        android:layout_height="289dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/detailAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="By Author Name"
+            android:textColor="@color/green"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailAuthor"
+
+            android:layout_marginTop="20dp"
+            android:text="zz/ll/aaaa"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailFullDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailData"
+            android:layout_marginTop="20dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique gravida condimentum. Suspendisse fermentum ornare elit at scelerisque. Aliquam sit amet venenatis diam. Ut hendrerit risus sed metus iaculis posuere a quis velit. Quisque dapibus id velit ac rutrum. Etiam luctus tortor at massa convallis, vitae vulputate nisl sodales."
+
+            android:textSize="18sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
