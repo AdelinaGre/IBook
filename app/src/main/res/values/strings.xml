@@ -36,4 +36,14 @@
         <item>Sometimes books confirm our familiar sense of the world, and sometimes they disrupt it by transporting us to places we could never have encountered on our own. This week’s recommendations do the latter in spades, with close-up looks at worlds and stories most of us will never experience firsthand, from disastrous space missions to a military bribery scandal to daily life in the restrictive state of North Korea. In “The Wide Wide Sea,” Hampton Sides takes readers back to Captain James Cook’s third voyage, and in “The Work of Art,” Adam Moss interviews dozens of creative people to get at their methods of invention. Finally, in fiction, we have new novels from Claire Messud, R.O. Kwon, Allen Bratton and Elise Juska. Happy reading. — Gregory Cowles</item>
     </string-array>
     <string name="back_button">Back</string>
+
+    <!-- Checkout activity -->
+    <string name="title_activity_checkout">CheckoutActivity</string>
+    <string name="checkout_item_description">Description</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is
+        not available on this phone.
+    </string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for
+        %s!
+    </string>
 </resources>
