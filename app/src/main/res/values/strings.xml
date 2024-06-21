@@ -46,4 +46,9 @@
     <string name="payments_show_name" translatable="false">Successfully received payment data for
         %s!
     </string>
+
+        <string name="credit_card_button">Credit Card Button</string>
+
+
 </resources>
+
