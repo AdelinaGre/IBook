@@ -47,7 +47,9 @@
         %s!
     </string>
 
-        <string name="credit_card_button">Credit Card Button</string>
+    <string name="credit_card_button">Credit Card Button</string>
+    <string name="business_icon" />
+    <string name="english_icon" />
 
 
 </resources>
